@@ -396,6 +396,11 @@ public class ResultActivity extends AppCompatActivity {
                 Intent intent = new Intent(ResultActivity.this, NewActivity.class);
                 startActivity(intent);
                 return true;
+
+            case R.id.k:
+                Intent i= new Intent(ResultActivity.this, kTableActivity.class);
+                startActivity(i);
+                return true;
         }
         return (super.onOptionsItemSelected(item));
     }
