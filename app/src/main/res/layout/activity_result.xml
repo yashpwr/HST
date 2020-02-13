@@ -143,7 +143,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:gravity="center_vertical"
-                android:hint="Mass of Water (t)"
+                android:hint="Mass of Water (w2)"
                 android:importantForAutofill="no"
                 android:inputType="number|numberDecimal"
                 android:singleLine="true"

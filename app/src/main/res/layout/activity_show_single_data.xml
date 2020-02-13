@@ -496,12 +496,12 @@
             </RelativeLayout>
 
             <Button
+                style="@style/Widget.AppCompat.Button.Colored"
                 android:id="@+id/buttonDelete"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="14dp"
-                android:text="Delete This Record"
-                />
+                android:text="Delete This Record" />
         </LinearLayout>
     </RelativeLayout>
 </ScrollView>

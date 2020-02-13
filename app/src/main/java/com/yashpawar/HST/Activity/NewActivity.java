@@ -97,7 +97,7 @@ public class NewActivity extends AppCompatActivity {
 
                 double finalresult = (int) (Math.round(res * 10000)) / 10000.0;
 
-                result.setText(finalresult + "");
+                result.setText(finalresult + " kg");
 
                     /*String text = result.getText().toString();
 
