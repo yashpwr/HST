@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:paddingTop="15dp"
+    android:paddingBottom="15dp" tools:context=".Activity.LoginActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Login"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:textSize="40dp"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Username"
+            android:importantForAutofill="no"
+            android:singleLine="true"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Password"
+            android:importantForAutofill="no"
+            android:singleLine="true"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_marginTop="10dp"
+        android:id="@+id/button"/>
+
+</LinearLayout>

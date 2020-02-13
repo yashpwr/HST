@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".Activity.MainActivity">
+
+    <item
+        android:id="@+id/newact"
+        android:title="Show data"
+        app:showAsAction="never">
+    </item>
+
+   <!-- <item
+        android:id="@+id/logout"
+        android:title="LogOut"
+        app:showAsAction="never">
+    </item>-->
+</menu>

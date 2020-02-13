@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".Activity.DisplayDataActivity">
+
+    <item
+        android:id="@+id/deletedata" android:icon="@drawable/ic_delete" app:showAsAction="always"   android:title="Delete Data"/>
+
+    <item
+        android:id="@+id/printdata" android:icon="@drawable/ic_print_white_24dp" app:showAsAction="always"   android:title="Print Data"/>
+
+</menu>
