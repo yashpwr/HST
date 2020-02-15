@@ -164,6 +164,7 @@
                 android:inputType="number|numberDecimal"
                 android:padding="20dp"
                 android:singleLine="true"
+                android:imeOptions="actionNext"
                 android:textColor="@android:color/black" />
 
             <EditText

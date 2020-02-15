@@ -7,13 +7,15 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
     android:paddingLeft="5dp"
     android:paddingRight="5dp"
     tools:context=".Activity.kTableActivity">
 
 <TableLayout
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    android:background="@drawable/customborder">
 
     <TextView
         android:id="@+id/txt"
@@ -23,6 +25,7 @@
         android:gravity="center"
         android:textSize = "20dp"
         android:padding="10dp"
+        android:background="@drawable/customborder"
         android:textStyle="bold">
     </TextView>
 
@@ -30,6 +33,8 @@
         android:padding="10dp">
 
         <TextView
+            android:background="@drawable/customborder"
+            android:layout_marginRight="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -39,6 +44,7 @@
             android:textStyle="bold" />
 
         <TextView
+            android:background="@drawable/customborder"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -50,6 +56,8 @@
     <TableRow android:padding="5dp">
 
         <TextView
+            android:background="@drawable/customborder"
+            android:layout_marginRight="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -57,6 +65,7 @@
             android:text="6"
             android:textSize="18sp" />
         <TextView
+            android:background="@drawable/customborder"
             android:id="@+id/six"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -67,6 +76,8 @@
     </TableRow>
     <TableRow android:padding="5dp">
         <TextView
+            android:background="@drawable/customborder"
+            android:layout_marginRight="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -74,6 +85,7 @@
             android:textSize="18sp"
             android:text="7" />
         <TextView
+            android:background="@drawable/customborder"
             android:id="@+id/seven"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -84,6 +96,8 @@
     </TableRow>
     <TableRow android:padding="5dp">
         <TextView
+            android:background="@drawable/customborder"
+            android:layout_marginRight="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -91,6 +105,7 @@
             android:textSize="18sp"
             android:text="8" />
         <TextView
+            android:background="@drawable/customborder"
             android:id="@+id/eight"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -102,6 +117,8 @@
 
     <TableRow android:padding="5dp">
         <TextView
+            android:background="@drawable/customborder"
+            android:layout_marginRight="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -109,6 +126,7 @@
             android:textSize="18sp"
             android:text="9" />
         <TextView
+            android:background="@drawable/customborder"
             android:id="@+id/nine"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -120,6 +138,8 @@
 
     <TableRow android:padding="5dp">
         <TextView
+            android:background="@drawable/customborder"
+            android:layout_marginRight="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -127,6 +147,7 @@
             android:textSize="18sp"
             android:text="10" />
         <TextView
+            android:background="@drawable/customborder"
             android:id="@+id/ten"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -138,6 +159,8 @@
 
     <TableRow android:padding="5dp">
         <TextView
+            android:background="@drawable/customborder"
+            android:layout_marginRight="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -145,6 +168,7 @@
             android:textSize="18sp"
             android:text="11" />
         <TextView
+            android:background="@drawable/customborder"
             android:id="@+id/eleven"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -156,6 +180,8 @@
 
     <TableRow android:padding="5dp">
         <TextView
+            android:background="@drawable/customborder"
+            android:layout_marginRight="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -163,6 +189,7 @@
             android:textSize="18sp"
             android:text="12" />
         <TextView
+            android:background="@drawable/customborder"
             android:id="@+id/twelve"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -174,6 +201,8 @@
 
     <TableRow android:padding="5dp">
         <TextView
+            android:background="@drawable/customborder"
+            android:layout_marginRight="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -181,6 +210,7 @@
             android:textSize="18sp"
             android:text="13" />
         <TextView
+            android:background="@drawable/customborder"
             android:id="@+id/thirteen"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -192,6 +222,8 @@
 
     <TableRow android:padding="5dp">
         <TextView
+            android:background="@drawable/customborder"
+            android:layout_marginRight="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -199,6 +231,7 @@
             android:textSize="18sp"
             android:text="14" />
         <TextView
+            android:background="@drawable/customborder"
             android:id="@+id/fourteen"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -210,6 +243,8 @@
 
     <TableRow android:padding="5dp">
         <TextView
+            android:background="@drawable/customborder"
+            android:layout_marginRight="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -217,6 +252,7 @@
             android:textSize="18sp"
             android:text="15" />
         <TextView
+            android:background="@drawable/customborder"
             android:id="@+id/fifteen"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -228,6 +264,8 @@
 
     <TableRow android:padding="5dp">
         <TextView
+            android:background="@drawable/customborder"
+            android:layout_marginRight="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -235,6 +273,7 @@
             android:gravity="center"
             android:text="16" />
         <TextView
+            android:background="@drawable/customborder"
             android:id="@+id/sixteen"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -246,6 +285,8 @@
 
     <TableRow android:padding="5dp">
         <TextView
+            android:background="@drawable/customborder"
+            android:layout_marginRight="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -253,6 +294,7 @@
             android:textSize="18sp"
             android:text="17" />
         <TextView
+            android:background="@drawable/customborder"
             android:id="@+id/seventeen"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -264,6 +306,8 @@
 
     <TableRow android:padding="5dp">
         <TextView
+            android:background="@drawable/customborder"
+            android:layout_marginRight="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -271,6 +315,7 @@
             android:textSize="18sp"
             android:text="18" />
         <TextView
+            android:background="@drawable/customborder"
             android:id="@+id/eighteen"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -282,6 +327,8 @@
 
     <TableRow android:padding="5dp">
         <TextView
+            android:background="@drawable/customborder"
+            android:layout_marginRight="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -289,6 +336,7 @@
             android:textSize="18sp"
             android:text="19" />
         <TextView
+            android:background="@drawable/customborder"
             android:id="@+id/nineteen"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -300,6 +348,8 @@
 
     <TableRow android:padding="5dp">
         <TextView
+            android:background="@drawable/customborder"
+            android:layout_marginRight="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -307,6 +357,7 @@
             android:textSize="18sp"
             android:text="20" />
         <TextView
+            android:background="@drawable/customborder"
             android:id="@+id/twenty"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -318,6 +369,8 @@
 
     <TableRow android:padding="5dp">
         <TextView
+            android:background="@drawable/customborder"
+            android:layout_marginRight="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -325,6 +378,7 @@
             android:textSize="18sp"
             android:text="21" />
         <TextView
+            android:background="@drawable/customborder"
             android:id="@+id/twenty1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -336,6 +390,8 @@
 
     <TableRow android:padding="5dp">
         <TextView
+            android:background="@drawable/customborder"
+            android:layout_marginRight="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -343,6 +399,7 @@
             android:textSize="18sp"
             android:text="22" />
         <TextView
+            android:background="@drawable/customborder"
             android:id="@+id/twenty2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -354,6 +411,8 @@
 
     <TableRow android:padding="5dp">
         <TextView
+            android:background="@drawable/customborder"
+            android:layout_marginRight="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -361,6 +420,7 @@
             android:textSize="18sp"
             android:text="23" />
         <TextView
+            android:background="@drawable/customborder"
             android:id="@+id/twenty3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -372,6 +432,8 @@
 
     <TableRow android:padding="5dp">
         <TextView
+            android:background="@drawable/customborder"
+            android:layout_marginRight="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -379,6 +441,7 @@
             android:textSize="18sp"
             android:text="24" />
         <TextView
+            android:background="@drawable/customborder"
             android:id="@+id/twenty4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -390,6 +453,8 @@
 
     <TableRow android:padding="5dp">
         <TextView
+            android:background="@drawable/customborder"
+            android:layout_marginRight="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -397,6 +462,7 @@
             android:textSize="18sp"
             android:text="25" />
         <TextView
+            android:background="@drawable/customborder"
             android:id="@+id/twenty5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -408,6 +474,8 @@
 
     <TableRow android:padding="5dp">
         <TextView
+            android:background="@drawable/customborder"
+            android:layout_marginRight="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -415,6 +483,7 @@
             android:textSize="18sp"
             android:text="26" />
         <TextView
+            android:background="@drawable/customborder"
             android:id="@+id/twenty6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -426,6 +495,8 @@
 
     <TableRow android:padding="5dp">
         <TextView
+            android:background="@drawable/customborder"
+            android:layout_marginRight="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -433,6 +504,7 @@
             android:textSize="18sp"
             android:text="27" />
         <TextView
+            android:background="@drawable/customborder"
             android:id="@+id/twenty7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -444,6 +516,8 @@
 
     <TableRow android:padding="5dp">
         <TextView
+            android:background="@drawable/customborder"
+            android:layout_marginRight="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -451,6 +525,7 @@
             android:textSize="18sp"
             android:text="28" />
         <TextView
+            android:background="@drawable/customborder"
             android:id="@+id/twenty8"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -462,6 +537,8 @@
 
     <TableRow android:padding="5dp">
         <TextView
+            android:background="@drawable/customborder"
+            android:layout_marginRight="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -469,6 +546,7 @@
             android:textSize="18sp"
             android:text="29" />
         <TextView
+            android:background="@drawable/customborder"
             android:id="@+id/twenty9"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -480,6 +558,8 @@
 
     <TableRow android:padding="5dp">
         <TextView
+            android:background="@drawable/customborder"
+            android:layout_marginRight="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -487,6 +567,7 @@
             android:textSize="18sp"
             android:text="30" />
         <TextView
+            android:background="@drawable/customborder"
             android:id="@+id/thirty"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -498,6 +579,8 @@
 
     <TableRow android:padding="5dp">
         <TextView
+            android:background="@drawable/customborder"
+            android:layout_marginRight="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -505,6 +588,7 @@
             android:textSize="18sp"
             android:text="31" />
         <TextView
+            android:background="@drawable/customborder"
             android:id="@+id/thirty1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -516,6 +600,8 @@
 
     <TableRow android:padding="5dp">
         <TextView
+            android:background="@drawable/customborder"
+            android:layout_marginRight="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -523,6 +609,7 @@
             android:textSize="18sp"
             android:text="32" />
         <TextView
+            android:background="@drawable/customborder"
             android:id="@+id/thirty2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -534,6 +621,8 @@
 
     <TableRow android:padding="5dp">
         <TextView
+            android:background="@drawable/customborder"
+            android:layout_marginRight="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -541,6 +630,7 @@
             android:textSize="18sp"
             android:text="33" />
         <TextView
+            android:background="@drawable/customborder"
             android:id="@+id/thirty3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -552,6 +642,8 @@
 
     <TableRow android:padding="5dp">
         <TextView
+            android:background="@drawable/customborder"
+            android:layout_marginRight="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -559,6 +651,7 @@
             android:textSize="18sp"
             android:text="34" />
         <TextView
+            android:background="@drawable/customborder"
             android:id="@+id/thirty4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -570,6 +663,8 @@
 
     <TableRow android:padding="5dp">
         <TextView
+            android:background="@drawable/customborder"
+            android:layout_marginRight="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -577,6 +672,7 @@
             android:textSize="18sp"
             android:text="35" />
         <TextView
+            android:background="@drawable/customborder"
             android:id="@+id/thirty5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

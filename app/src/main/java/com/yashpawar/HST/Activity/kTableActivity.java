@@ -19,6 +19,7 @@ public class kTableActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_k_table);
+        setTitle("k Factor Table");
 
         six = findViewById(R.id.six);
         seven = findViewById(R.id.seven);
@@ -58,6 +59,7 @@ public class kTableActivity extends AppCompatActivity {
                 ClipboardManager cm = (ClipboardManager) getApplicationContext().getSystemService(Context.CLIPBOARD_SERVICE);
                 cm.setText(six.getText().toString());
                 Toast.makeText(getApplicationContext(), "Copied to clipboard", Toast.LENGTH_SHORT).show();
+                finish();
             }
         });
 
@@ -67,6 +69,7 @@ public class kTableActivity extends AppCompatActivity {
                 ClipboardManager cm = (ClipboardManager) getApplicationContext().getSystemService(Context.CLIPBOARD_SERVICE);
                 cm.setText(seven.getText().toString());
                 Toast.makeText(getApplicationContext(), "Copied to clipboard", Toast.LENGTH_SHORT).show();
+                finish();
             }
         });
         eight.setOnClickListener(new View.OnClickListener() {
@@ -75,6 +78,7 @@ public class kTableActivity extends AppCompatActivity {
                 ClipboardManager cm = (ClipboardManager) getApplicationContext().getSystemService(Context.CLIPBOARD_SERVICE);
                 cm.setText(eight.getText().toString());
                 Toast.makeText(getApplicationContext(), "Copied to clipboard", Toast.LENGTH_SHORT).show();
+                finish();
             }
         });
         nine.setOnClickListener(new View.OnClickListener() {
@@ -83,6 +87,7 @@ public class kTableActivity extends AppCompatActivity {
                 ClipboardManager cm = (ClipboardManager) getApplicationContext().getSystemService(Context.CLIPBOARD_SERVICE);
                 cm.setText(nine.getText().toString());
                 Toast.makeText(getApplicationContext(), "Copied to clipboard", Toast.LENGTH_SHORT).show();
+                finish();
             }
         });
         ten.setOnClickListener(new View.OnClickListener() {
@@ -91,6 +96,7 @@ public class kTableActivity extends AppCompatActivity {
                 ClipboardManager cm = (ClipboardManager) getApplicationContext().getSystemService(Context.CLIPBOARD_SERVICE);
                 cm.setText(ten.getText().toString());
                 Toast.makeText(getApplicationContext(), "Copied to clipboard", Toast.LENGTH_SHORT).show();
+                finish();
             }
         });
         eleven.setOnClickListener(new View.OnClickListener() {
@@ -99,6 +105,7 @@ public class kTableActivity extends AppCompatActivity {
                 ClipboardManager cm = (ClipboardManager) getApplicationContext().getSystemService(Context.CLIPBOARD_SERVICE);
                 cm.setText(eleven.getText().toString());
                 Toast.makeText(getApplicationContext(), "Copied to clipboard", Toast.LENGTH_SHORT).show();
+                finish();
             }
         });
         twelve.setOnClickListener(new View.OnClickListener() {
@@ -107,6 +114,7 @@ public class kTableActivity extends AppCompatActivity {
                 ClipboardManager cm = (ClipboardManager) getApplicationContext().getSystemService(Context.CLIPBOARD_SERVICE);
                 cm.setText(twelve.getText().toString());
                 Toast.makeText(getApplicationContext(), "Copied to clipboard", Toast.LENGTH_SHORT).show();
+                finish();
             }
         });
         thirteen.setOnClickListener(new View.OnClickListener() {
@@ -115,6 +123,7 @@ public class kTableActivity extends AppCompatActivity {
                 ClipboardManager cm = (ClipboardManager) getApplicationContext().getSystemService(Context.CLIPBOARD_SERVICE);
                 cm.setText(thirteen.getText().toString());
                 Toast.makeText(getApplicationContext(), "Copied to clipboard", Toast.LENGTH_SHORT).show();
+                finish();
             }
         });
         fourteen.setOnClickListener(new View.OnClickListener() {
@@ -123,6 +132,7 @@ public class kTableActivity extends AppCompatActivity {
                 ClipboardManager cm = (ClipboardManager) getApplicationContext().getSystemService(Context.CLIPBOARD_SERVICE);
                 cm.setText(fourteen.getText().toString());
                 Toast.makeText(getApplicationContext(), "Copied to clipboard", Toast.LENGTH_SHORT).show();
+                finish();
             }
         });
         fifteen.setOnClickListener(new View.OnClickListener() {
@@ -131,6 +141,7 @@ public class kTableActivity extends AppCompatActivity {
                 ClipboardManager cm = (ClipboardManager) getApplicationContext().getSystemService(Context.CLIPBOARD_SERVICE);
                 cm.setText(fifteen.getText().toString());
                 Toast.makeText(getApplicationContext(), "Copied to clipboard", Toast.LENGTH_SHORT).show();
+                finish();
             }
         });
         sixteen.setOnClickListener(new View.OnClickListener() {
@@ -139,6 +150,7 @@ public class kTableActivity extends AppCompatActivity {
                 ClipboardManager cm = (ClipboardManager) getApplicationContext().getSystemService(Context.CLIPBOARD_SERVICE);
                 cm.setText(sixteen.getText().toString());
                 Toast.makeText(getApplicationContext(), "Copied to clipboard", Toast.LENGTH_SHORT).show();
+                finish();
             }
         });
         seventeen.setOnClickListener(new View.OnClickListener() {
@@ -147,6 +159,7 @@ public class kTableActivity extends AppCompatActivity {
                 ClipboardManager cm = (ClipboardManager) getApplicationContext().getSystemService(Context.CLIPBOARD_SERVICE);
                 cm.setText(seventeen.getText().toString());
                 Toast.makeText(getApplicationContext(), "Copied to clipboard", Toast.LENGTH_SHORT).show();
+                finish();
             }
         });
         eighteen.setOnClickListener(new View.OnClickListener() {
@@ -155,6 +168,7 @@ public class kTableActivity extends AppCompatActivity {
                 ClipboardManager cm = (ClipboardManager) getApplicationContext().getSystemService(Context.CLIPBOARD_SERVICE);
                 cm.setText(eighteen.getText().toString());
                 Toast.makeText(getApplicationContext(), "Copied to clipboard", Toast.LENGTH_SHORT).show();
+                finish();
             }
         });
         nineteen.setOnClickListener(new View.OnClickListener() {
@@ -163,6 +177,7 @@ public class kTableActivity extends AppCompatActivity {
                 ClipboardManager cm = (ClipboardManager) getApplicationContext().getSystemService(Context.CLIPBOARD_SERVICE);
                 cm.setText(nineteen.getText().toString());
                 Toast.makeText(getApplicationContext(), "Copied to clipboard", Toast.LENGTH_SHORT).show();
+                finish();
             }
         });
         twenty.setOnClickListener(new View.OnClickListener() {
@@ -171,6 +186,7 @@ public class kTableActivity extends AppCompatActivity {
                 ClipboardManager cm = (ClipboardManager) getApplicationContext().getSystemService(Context.CLIPBOARD_SERVICE);
                 cm.setText(twenty.getText().toString());
                 Toast.makeText(getApplicationContext(), "Copied to clipboard", Toast.LENGTH_SHORT).show();
+                finish();
             }
         });
         twenty1.setOnClickListener(new View.OnClickListener() {
@@ -179,6 +195,7 @@ public class kTableActivity extends AppCompatActivity {
                 ClipboardManager cm = (ClipboardManager) getApplicationContext().getSystemService(Context.CLIPBOARD_SERVICE);
                 cm.setText(twenty1.getText().toString());
                 Toast.makeText(getApplicationContext(), "Copied to clipboard", Toast.LENGTH_SHORT).show();
+                finish();
             }
         });
         twenty2.setOnClickListener(new View.OnClickListener() {
@@ -187,6 +204,7 @@ public class kTableActivity extends AppCompatActivity {
                 ClipboardManager cm = (ClipboardManager) getApplicationContext().getSystemService(Context.CLIPBOARD_SERVICE);
                 cm.setText(twenty2.getText().toString());
                 Toast.makeText(getApplicationContext(), "Copied to clipboard", Toast.LENGTH_SHORT).show();
+                finish();
             }
         });
         twenty3.setOnClickListener(new View.OnClickListener() {
@@ -195,6 +213,7 @@ public class kTableActivity extends AppCompatActivity {
                 ClipboardManager cm = (ClipboardManager) getApplicationContext().getSystemService(Context.CLIPBOARD_SERVICE);
                 cm.setText(twenty3.getText().toString());
                 Toast.makeText(getApplicationContext(), "Copied to clipboard", Toast.LENGTH_SHORT).show();
+                finish();
             }
         });
         twenty4.setOnClickListener(new View.OnClickListener() {
@@ -203,6 +222,7 @@ public class kTableActivity extends AppCompatActivity {
                 ClipboardManager cm = (ClipboardManager) getApplicationContext().getSystemService(Context.CLIPBOARD_SERVICE);
                 cm.setText(twenty4.getText().toString());
                 Toast.makeText(getApplicationContext(), "Copied to clipboard", Toast.LENGTH_SHORT).show();
+                finish();
             }
         });
         twenty5.setOnClickListener(new View.OnClickListener() {
@@ -211,6 +231,7 @@ public class kTableActivity extends AppCompatActivity {
                 ClipboardManager cm = (ClipboardManager) getApplicationContext().getSystemService(Context.CLIPBOARD_SERVICE);
                 cm.setText(twenty5.getText().toString());
                 Toast.makeText(getApplicationContext(), "Copied to clipboard", Toast.LENGTH_SHORT).show();
+                finish();
             }
         });
         twenty6.setOnClickListener(new View.OnClickListener() {
@@ -219,6 +240,7 @@ public class kTableActivity extends AppCompatActivity {
                 ClipboardManager cm = (ClipboardManager) getApplicationContext().getSystemService(Context.CLIPBOARD_SERVICE);
                 cm.setText(twenty6.getText().toString());
                 Toast.makeText(getApplicationContext(), "Copied to clipboard", Toast.LENGTH_SHORT).show();
+                finish();
             }
         });
         twenty7.setOnClickListener(new View.OnClickListener() {
@@ -227,6 +249,7 @@ public class kTableActivity extends AppCompatActivity {
                 ClipboardManager cm = (ClipboardManager) getApplicationContext().getSystemService(Context.CLIPBOARD_SERVICE);
                 cm.setText(twenty7.getText().toString());
                 Toast.makeText(getApplicationContext(), "Copied to clipboard", Toast.LENGTH_SHORT).show();
+                finish();
             }
         });
 
@@ -236,6 +259,7 @@ public class kTableActivity extends AppCompatActivity {
                 ClipboardManager cm = (ClipboardManager) getApplicationContext().getSystemService(Context.CLIPBOARD_SERVICE);
                 cm.setText(twenty8.getText().toString());
                 Toast.makeText(getApplicationContext(), "Copied to clipboard", Toast.LENGTH_SHORT).show();
+                finish();
             }
         });
         twenty9.setOnClickListener(new View.OnClickListener() {
@@ -244,6 +268,7 @@ public class kTableActivity extends AppCompatActivity {
                 ClipboardManager cm = (ClipboardManager) getApplicationContext().getSystemService(Context.CLIPBOARD_SERVICE);
                 cm.setText(twenty9.getText().toString());
                 Toast.makeText(getApplicationContext(), "Copied to clipboard", Toast.LENGTH_SHORT).show();
+                finish();
             }
         });
         thirty.setOnClickListener(new View.OnClickListener() {
@@ -252,6 +277,7 @@ public class kTableActivity extends AppCompatActivity {
                 ClipboardManager cm = (ClipboardManager) getApplicationContext().getSystemService(Context.CLIPBOARD_SERVICE);
                 cm.setText(thirty.getText().toString());
                 Toast.makeText(getApplicationContext(), "Copied to clipboard", Toast.LENGTH_SHORT).show();
+                finish();
             }
         });
         thirty1.setOnClickListener(new View.OnClickListener() {
@@ -260,6 +286,7 @@ public class kTableActivity extends AppCompatActivity {
                 ClipboardManager cm = (ClipboardManager) getApplicationContext().getSystemService(Context.CLIPBOARD_SERVICE);
                 cm.setText(thirty1.getText().toString());
                 Toast.makeText(getApplicationContext(), "Copied to clipboard", Toast.LENGTH_SHORT).show();
+                finish();
             }
         });
         thirty2.setOnClickListener(new View.OnClickListener() {
@@ -268,6 +295,7 @@ public class kTableActivity extends AppCompatActivity {
                 ClipboardManager cm = (ClipboardManager) getApplicationContext().getSystemService(Context.CLIPBOARD_SERVICE);
                 cm.setText(thirty2.getText().toString());
                 Toast.makeText(getApplicationContext(), "Copied to clipboard", Toast.LENGTH_SHORT).show();
+                finish();
             }
         });
         thirty3.setOnClickListener(new View.OnClickListener() {
@@ -276,6 +304,7 @@ public class kTableActivity extends AppCompatActivity {
                 ClipboardManager cm = (ClipboardManager) getApplicationContext().getSystemService(Context.CLIPBOARD_SERVICE);
                 cm.setText(thirty3.getText().toString());
                 Toast.makeText(getApplicationContext(), "Copied to clipboard", Toast.LENGTH_SHORT).show();
+                finish();
             }
         });
         thirty4.setOnClickListener(new View.OnClickListener() {
@@ -284,6 +313,7 @@ public class kTableActivity extends AppCompatActivity {
                 ClipboardManager cm = (ClipboardManager) getApplicationContext().getSystemService(Context.CLIPBOARD_SERVICE);
                 cm.setText(thirty4.getText().toString());
                 Toast.makeText(getApplicationContext(), "Copied to clipboard", Toast.LENGTH_SHORT).show();
+                finish();
             }
         });
         thirty5.setOnClickListener(new View.OnClickListener() {
@@ -292,6 +322,7 @@ public class kTableActivity extends AppCompatActivity {
                 ClipboardManager cm = (ClipboardManager) getApplicationContext().getSystemService(Context.CLIPBOARD_SERVICE);
                 cm.setText(thirty5.getText().toString());
                 Toast.makeText(getApplicationContext(), "Copied to clipboard", Toast.LENGTH_SHORT).show();
+                finish();
             }
         });
     }

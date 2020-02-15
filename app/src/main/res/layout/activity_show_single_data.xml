@@ -16,11 +16,13 @@
         android:orientation="horizontal">
 
         <LinearLayout
+            android:background="@drawable/customborder"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
             <RelativeLayout
+                android:background="@drawable/customborder"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5sp"
@@ -46,6 +48,7 @@
             </RelativeLayout>
 
             <RelativeLayout
+                android:background="@drawable/customborder"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5sp"
@@ -71,6 +74,7 @@
             </RelativeLayout>
 
             <RelativeLayout
+                android:background="@drawable/customborder"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5sp"
@@ -96,6 +100,7 @@
             </RelativeLayout>
 
             <RelativeLayout
+                android:background="@drawable/customborder"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5sp"
@@ -121,6 +126,7 @@
             </RelativeLayout>
 
             <RelativeLayout
+                android:background="@drawable/customborder"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5sp"
@@ -146,6 +152,7 @@
             </RelativeLayout>
 
             <RelativeLayout
+                android:background="@drawable/customborder"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5sp"
@@ -171,6 +178,7 @@
             </RelativeLayout>
 
             <RelativeLayout
+                android:background="@drawable/customborder"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5sp"
@@ -196,6 +204,7 @@
             </RelativeLayout>
 
             <RelativeLayout
+                android:background="@drawable/customborder"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5sp"
@@ -221,6 +230,7 @@
             </RelativeLayout>
 
             <RelativeLayout
+                android:background="@drawable/customborder"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5sp"
@@ -246,6 +256,7 @@
             </RelativeLayout>
 
             <RelativeLayout
+                android:background="@drawable/customborder"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5sp"
@@ -271,6 +282,7 @@
             </RelativeLayout>
 
             <RelativeLayout
+                android:background="@drawable/customborder"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5sp"
@@ -296,6 +308,7 @@
             </RelativeLayout>
 
             <RelativeLayout
+                android:background="@drawable/customborder"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5sp"
@@ -321,6 +334,7 @@
             </RelativeLayout>
 
             <RelativeLayout
+                android:background="@drawable/customborder"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5sp"
@@ -346,6 +360,7 @@
             </RelativeLayout>
 
             <RelativeLayout
+                android:background="@drawable/customborder"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5sp"
@@ -371,6 +386,7 @@
             </RelativeLayout>
 
             <RelativeLayout
+                android:background="@drawable/customborder"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5sp"
@@ -396,6 +412,7 @@
             </RelativeLayout>
 
             <RelativeLayout
+                android:background="@drawable/customborder"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5sp"
@@ -421,6 +438,7 @@
             </RelativeLayout>
 
             <RelativeLayout
+                android:background="@drawable/customborder"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5sp"
@@ -446,6 +464,7 @@
             </RelativeLayout>
 
             <RelativeLayout
+                android:background="@drawable/customborder"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5sp"
@@ -471,6 +490,7 @@
             </RelativeLayout>
 
             <RelativeLayout
+                android:background="@drawable/customborder"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5sp"
